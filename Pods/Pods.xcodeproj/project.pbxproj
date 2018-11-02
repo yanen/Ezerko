@@ -1,0 +1,1230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		029AF97A08FD011B2E3F07E8F96425F3 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742F2B7AFC189B8853DFF94ABA18AF6 /* AkiraTextField.swift */; };
+		090E1175F7160032CE86964DBC18F406 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5310B9FB537143F851C5E88E41E00837 /* JiroTextField.swift */; };
+		0A4D064F4BE8AF47F306D0359FDAF0CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */; };
+		0B9E58D2D4EB49F21A76762CA9AA2493 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91902A3C31D00C60D7F79449E4BDA917 /* Chart.swift */; };
+		0C343F399746EA08BE8F48499B87350D /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BCA14F8AEE6B7D2C434A1EB080BABF /* MinoruTextField.swift */; };
+		0E924CB3966AA4465A9547C3F25910AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		107191A463F322FCD4BC3CAC6B47D04A /* ZCFallLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F299B0A3392E2406B5C719FA3BC4FA8 /* ZCFallLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		15CFF8A5D0D166A77ACAD8620295335B /* ZCAnimatedLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE2699442C5CDADF6CB67291BE724F9 /* ZCAnimatedLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1946D621F7405B5ED17080D48266B0FD /* ZCFocusLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = CFBDB53FC178178D6310C997D7766463 /* ZCFocusLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2031BA60DE8EB90CEC0B036D04307C57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		22DF102D83FBC2020314E81035314E5C /* ZCFlyinLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F076EC488C8A576E66B1BB8CDB1A6D8E /* ZCFlyinLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2855D158EE0A1D1DA6E743521118D412 /* Pods-Changemakers_Designer_View-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F547D044DCE32A25933814963096E4C4 /* Pods-Changemakers_Designer_View-dummy.m */; };
+		2C1995E99DB19B9C77CBF35B4997086C /* ZCFocusLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C34C97538126F2641A8077EF3D3027 /* ZCFocusLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2CE3D4244A15C6D1BDFF74E46DB4528C /* ZCDashLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4FBC81345CC4F9D406CF89F89EBFF5 /* ZCDashLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D454363F3B61F8F20A1B87396CE4A9A /* TransitionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B709089A76C24F6FF12618126469AEE /* TransitionButton.swift */; };
+		2E00FC13A80784A400CBB441C4CAD803 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349680CA7B271EFF55A13DD3D10F9F /* IsaoTextField.swift */; };
+		2E59A83BF02E3AB82CC3CCCD150CF4DB /* ZCSpinLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A09C4BE03A697461F4E6F9B9C24AB3D /* ZCSpinLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2EA0DA529668910FE5E0BDCE8261B06E /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18003CC17A6A97A4C4242D9EDE206584 /* MadokaTextField.swift */; };
+		38F2BD6443754287BFA391B952D9C779 /* ZCEasingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 555582409A57AAFB5ADAE55C5EA61549 /* ZCEasingUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4029164AC7C28AC520FCD940E51E4B02 /* ZCAnimatedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 419729195494D6519C27AA4F32F84BA4 /* ZCAnimatedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		452EAFAE8527A81F0ABFA0C06B65CFC2 /* ZCThrownLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 023A9CFF16A7CFD6E9C99C571565FA25 /* ZCThrownLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51E9E1AC24F50A7CBC50680DA9BE0877 /* SwiftChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 544758674054F31DFDB362D3B96EA1DE /* SwiftChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EAA65CEFB1D457E48A116722D54383E /* TransitionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6221BA3EFB07184B454746849DDDD2AF /* TransitionButton-dummy.m */; };
+		638FBC74DCBA6EB7EBB7AA2B61CFA6AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */; };
+		63B57A7702A3BEA40A3C18732C835BBA /* ZCRevealLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B869E0B79C3CEC29799EF8C1A8C35 /* ZCRevealLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		74D449786F21E06C4345B59144E3F1C3 /* ZCTransparencyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C82D8106136A4B4FC473CB990D77BE /* ZCTransparencyLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		78DB293583C88B488F1A65D92E9E4D7F /* ZCTransparencyLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F088F7D415BE40346D44B8407BBE0D1 /* ZCTransparencyLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79F45156B10096443EA54977B002EE48 /* ZCFlyinLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C64F074181AE88C9B53166F696C310 /* ZCFlyinLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD44967F0EABC2D7F56A6403F8EAADF /* ChartSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACC8DCC20AE98E0328D99EC703F1E19 /* ChartSeries.swift */; };
+		82F16A1D66232BB071412FB96243D55D /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E18BDA0E09A91EF208F35DE9C9E7D7 /* YokoTextField.swift */; };
+		892C313D7B0180AFC37AB0D88442CCF5 /* ChartColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62180A7BEB6DBC2AE60A58EFA64B061E /* ChartColors.swift */; };
+		897414089C284C450C89000A9B0520BA /* ZCDuangLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EB51E04EFACEC67E258584C769E008 /* ZCDuangLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89952EC5D0D2BBEC5CAA1E1CFB0C14CF /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C436C3010C209968F30D15EC475B17 /* KaedeTextField.swift */; };
+		8B6220A8B6D47DB060209434CED8B617 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB424FAD5503A4C25FFFB2393CA5A55 /* HoshiTextField.swift */; };
+		8C2F452157ACD45DC0FC0615DFEFB452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		9422566DB0FD084BCF4A281AE24F3433 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */; };
+		95BD7FAA728B12CF95562E9BCFEBF7E0 /* ZCAnimatedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCD1F4387F73D6030FC2B74B83C11E /* ZCAnimatedLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A154F14FCD0E8045C59A9C21391C1BE4 /* ZCDuangLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A33E1D95409A5E699D522C877239 /* ZCDuangLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A5BC9D1806417E7FEA12DCEE42852944 /* ZCRevealLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3A29BFD9C87D897A747DFE4E78A828 /* ZCRevealLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A68B98DC2DB2DF1C220EBAF3727CE47D /* ZCEasingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E24865DCD12DD5683297EC0B0E6477FC /* ZCEasingUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C24AF70A922D288F17E9100775D43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		B0CF73B278EBA1BF15BC0E51F6F3FA4A /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652AB57C98C4BB7428A44F41A66E1BB /* SpinerLayer.swift */; };
+		B3C98B2D8159A1C6A3DF4EBB4A5635F7 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70138B85C8101EBF57A40D18D8642CA5 /* CGRectExtension.swift */; };
+		B59E401CC334316A3B66F14AA9F06DA1 /* Pods-Changemakers_Designer_View-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 200BB80E2D1F45ACA3742808CF63215C /* Pods-Changemakers_Designer_View-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B805F88568ED0E9BF91D860DF914C254 /* ZCDashLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E42250D12A62F7B32FA5042F8008670E /* ZCDashLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B9C51EAC3C9CCC7C4AFD0B57DE2EAC07 /* ZCShapeshiftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB17973493DAA86ACDD75669CFA4678 /* ZCShapeshiftLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BB2DAAC2267CBA028B7AA692D3977F10 /* ZCSpinLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DA3FB4F1B549C109829ABF2AF7BE6F /* ZCSpinLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE61C3CDDED0818633E7DA738E1C830B /* SwiftChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A13BB87471FC9BA323CE9AB48422F619 /* SwiftChart-dummy.m */; };
+		BF851B3A5F298ED4DABDAFF4BAFBA6AF /* ZCAnimatedLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97083CBA1FF49BD0E6F17FEA99A199B2 /* ZCAnimatedLabel-dummy.m */; };
+		BFEC0375FDA5DCC70B25968C9EB85120 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D596A98392CFC4D38AD262380CDB6675 /* YoshikoTextField.swift */; };
+		C49803AF7E611561F9492E02DF58D70D /* ZCCoreTextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FE5F7C81F704992230C41E8AA938B14F /* ZCCoreTextLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CED7264350D6937BB0F011894C06197F /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C1A6578D8F0988E8B86E0D32E95E91 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF62FD92D5F2FBABD851076563D69CDC /* ZCCoreTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 69248BE51D758FDBF935F34843F0803A /* ZCCoreTextLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D36DEE04AAE5DCFBDC992963618E4124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		DB193341C72B427EA77FB1694CE526A8 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D11F3BDFE5351A21673580E9D92F02 /* TextFieldEffects-dummy.m */; };
+		DB7C38A77F2BA609E433063FE6036B79 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B16514C2DC3C31EC00B658E883A462 /* TextFieldEffects.swift */; };
+		E4ECAFA93DEF5535DAC025B8353D8397 /* CustomTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6B887F2EF2A7093654062F99FEE980 /* CustomTransitionViewController.swift */; };
+		EEC653BD21ED6A65671357C8C7B0AC94 /* ZCThrownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D864B7BF1ED3F70F5FCFE2EEF2DF0CD5 /* ZCThrownLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EF211747576455843A7A98964F54A132 /* TransitionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A231A2656A086B8D8AFBBC582FD8B12 /* TransitionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F02147DF9A27B43BD68D85293ED39B08 /* ZCShapeshiftLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4462FF1D530DE634CEF27985249CEFB3 /* ZCShapeshiftLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F03A6E25D59977959388CFFE59F586E2 /* ZCFallLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3550F7CF26DE3787097490816519030D /* ZCFallLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8F4F8D6C1000E4F8832881EAEAA6713 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41715E6DE7740325B1A7356461C69F21 /* FadeTransition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E2D0D2F0FFD7D68CFF314628B2EF479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9DBA8B915D2AEB56D79FC7CEF37F4E2;
+			remoteInfo = TextFieldEffects;
+		};
+		6D150007056C803E70EA91B8B6704243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 763A2474D4E93904A3B98431B05B0051;
+			remoteInfo = SwiftChart;
+		};
+		7EBBDEEA352BFF085076695E4E5E8B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AC487053535825D2EECCF334DBDDD4;
+			remoteInfo = ZCAnimatedLabel;
+		};
+		9FEFD8CB89AC8F5E563B3B1261AB880D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50CA55E08CE51097C6B43000554DBB1A;
+			remoteInfo = TransitionButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023A9CFF16A7CFD6E9C99C571565FA25 /* ZCThrownLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCThrownLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCThrownLabel.h; sourceTree = "<group>"; };
+		04C436C3010C209968F30D15EC475B17 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		064348B0BD76B10B12DED81BC8194371 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0990304056DC246BDFF3B766809132C8 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		0DE2699442C5CDADF6CB67291BE724F9 /* ZCAnimatedLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCAnimatedLabel-umbrella.h"; sourceTree = "<group>"; };
+		18003CC17A6A97A4C4242D9EDE206584 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		19067C0353F2E69A7592C410BD456521 /* ZCAnimatedLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCAnimatedLabel.xcconfig; sourceTree = "<group>"; };
+		1C8CE1F3EE9DC25122347DEB1490DE56 /* Pods_Changemakers_Designer_View.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Changemakers_Designer_View.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		200BB80E2D1F45ACA3742808CF63215C /* Pods-Changemakers_Designer_View-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Changemakers_Designer_View-umbrella.h"; sourceTree = "<group>"; };
+		25380EAF635BF8B7D80AB863935125B5 /* ZCAnimatedLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZCAnimatedLabel.modulemap; sourceTree = "<group>"; };
+		27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2A5AAF0F942EB5F31B60C22856AFE624 /* ZCAnimatedLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCAnimatedLabel-prefix.pch"; sourceTree = "<group>"; };
+		2FBA7EA4B34175879BB7B3B9032FCE20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3550F7CF26DE3787097490816519030D /* ZCFallLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCFallLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFallLabel.h; sourceTree = "<group>"; };
+		3652AB57C98C4BB7428A44F41A66E1BB /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = Source/SpinerLayer.swift; sourceTree = "<group>"; };
+		365CF2154659E96A8B2D17D41312F9B5 /* Pods-Changemakers_Designer_View.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Changemakers_Designer_View.debug.xcconfig"; sourceTree = "<group>"; };
+		3742F2B7AFC189B8853DFF94ABA18AF6 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		3A09C4BE03A697461F4E6F9B9C24AB3D /* ZCSpinLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCSpinLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCSpinLabel.m; sourceTree = "<group>"; };
+		3B54A33E1D95409A5E699D522C877239 /* ZCDuangLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCDuangLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCDuangLabel.m; sourceTree = "<group>"; };
+		3F088F7D415BE40346D44B8407BBE0D1 /* ZCTransparencyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCTransparencyLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCTransparencyLabel.h; sourceTree = "<group>"; };
+		41715E6DE7740325B1A7356461C69F21 /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = Source/FadeTransition.swift; sourceTree = "<group>"; };
+		419729195494D6519C27AA4F32F84BA4 /* ZCAnimatedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCAnimatedLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCAnimatedLabel.h; sourceTree = "<group>"; };
+		4462FF1D530DE634CEF27985249CEFB3 /* ZCShapeshiftLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCShapeshiftLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCShapeshiftLabel.h; sourceTree = "<group>"; };
+		5310B9FB537143F851C5E88E41E00837 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		5402FEC16E7C051DF6483D6E1E80D9E8 /* TransitionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransitionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		544758674054F31DFDB362D3B96EA1DE /* SwiftChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftChart-umbrella.h"; sourceTree = "<group>"; };
+		555582409A57AAFB5ADAE55C5EA61549 /* ZCEasingUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCEasingUtil.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCEasingUtil.m; sourceTree = "<group>"; };
+		57EBF130945651C6913CA50A2E4052BE /* TransitionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TransitionButton.modulemap; sourceTree = "<group>"; };
+		5A1CA18B2D9097AB77E18F15821E9BBD /* Pods-Changemakers_Designer_View-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Changemakers_Designer_View-resources.sh"; sourceTree = "<group>"; };
+		5A231A2656A086B8D8AFBBC582FD8B12 /* TransitionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-umbrella.h"; sourceTree = "<group>"; };
+		60D19E521030BE61A3D2AC22359315A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61B931AEBC8BD1539AD2A7D7EF587BCF /* Pods-Changemakers_Designer_View-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Changemakers_Designer_View-acknowledgements.plist"; sourceTree = "<group>"; };
+		62180A7BEB6DBC2AE60A58EFA64B061E /* ChartColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartColors.swift; path = Source/ChartColors.swift; sourceTree = "<group>"; };
+		6221BA3EFB07184B454746849DDDD2AF /* TransitionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TransitionButton-dummy.m"; sourceTree = "<group>"; };
+		65CDB25CB1F9420034C57DD9235ACBA6 /* SwiftChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftChart.modulemap; sourceTree = "<group>"; };
+		66C64F074181AE88C9B53166F696C310 /* ZCFlyinLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCFlyinLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFlyinLabel.h; sourceTree = "<group>"; };
+		69248BE51D758FDBF935F34843F0803A /* ZCCoreTextLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCCoreTextLayout.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCCoreTextLayout.m; sourceTree = "<group>"; };
+		6AF56EFB1E93FBA59A7E4A644C30589D /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		6C3A29BFD9C87D897A747DFE4E78A828 /* ZCRevealLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCRevealLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCRevealLabel.h; sourceTree = "<group>"; };
+		6F299B0A3392E2406B5C719FA3BC4FA8 /* ZCFallLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCFallLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFallLabel.m; sourceTree = "<group>"; };
+		70138B85C8101EBF57A40D18D8642CA5 /* CGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtension.swift; path = Source/CGRectExtension.swift; sourceTree = "<group>"; };
+		73A2A9D27830F88E7F7D92443BCF552C /* SwiftChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftChart.xcconfig; sourceTree = "<group>"; };
+		7C349680CA7B271EFF55A13DD3D10F9F /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		82F7D3CFD1F8428340DE6EB3D42723F6 /* Pods-Changemakers_Designer_View.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Changemakers_Designer_View.release.xcconfig"; sourceTree = "<group>"; };
+		837A028E5C7E506BECF56FCBF14A7296 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854FC82C00686F1B9C3A5265894C7DD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888B869E0B79C3CEC29799EF8C1A8C35 /* ZCRevealLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCRevealLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCRevealLabel.m; sourceTree = "<group>"; };
+		8B709089A76C24F6FF12618126469AEE /* TransitionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionButton.swift; path = Source/TransitionButton.swift; sourceTree = "<group>"; };
+		8ECCD1F4387F73D6030FC2B74B83C11E /* ZCAnimatedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCAnimatedLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCAnimatedLabel.m; sourceTree = "<group>"; };
+		8ECD23A779A62A294C5C498A0A8C0C09 /* ZCAnimatedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZCAnimatedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C82D8106136A4B4FC473CB990D77BE /* ZCTransparencyLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCTransparencyLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCTransparencyLabel.m; sourceTree = "<group>"; };
+		91902A3C31D00C60D7F79449E4BDA917 /* Chart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Chart.swift; path = Source/Chart.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93F1D8E04EBAB62BA2AFABFAED178394 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97083CBA1FF49BD0E6F17FEA99A199B2 /* ZCAnimatedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCAnimatedLabel-dummy.m"; sourceTree = "<group>"; };
+		A13BB87471FC9BA323CE9AB48422F619 /* SwiftChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftChart-dummy.m"; sourceTree = "<group>"; };
+		A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A9C1A6578D8F0988E8B86E0D32E95E91 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		AAB17973493DAA86ACDD75669CFA4678 /* ZCShapeshiftLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCShapeshiftLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCShapeshiftLabel.m; sourceTree = "<group>"; };
+		B339216E5C5EAAAA1C914D0F0E3635FB /* SwiftChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftChart-prefix.pch"; sourceTree = "<group>"; };
+		BBB424FAD5503A4C25FFFB2393CA5A55 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		BF6B887F2EF2A7093654062F99FEE980 /* CustomTransitionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTransitionViewController.swift; path = Source/CustomTransitionViewController.swift; sourceTree = "<group>"; };
+		C02B2660934F0280D92FB2C126D17692 /* Pods-Changemakers_Designer_View-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Changemakers_Designer_View-frameworks.sh"; sourceTree = "<group>"; };
+		C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		C5B829D4C9BD50538C3458A32AD2595A /* TransitionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionButton.xcconfig; sourceTree = "<group>"; };
+		C5D11F3BDFE5351A21673580E9D92F02 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		CACC8DCC20AE98E0328D99EC703F1E19 /* ChartSeries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartSeries.swift; path = Source/ChartSeries.swift; sourceTree = "<group>"; };
+		CE1670628C7F25CD6E214765A075C8B1 /* Pods-Changemakers_Designer_View-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Changemakers_Designer_View-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF3BB5746DCD47D2B09D609FE6696CB5 /* TransitionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-prefix.pch"; sourceTree = "<group>"; };
+		CFBDB53FC178178D6310C997D7766463 /* ZCFocusLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCFocusLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFocusLabel.h; sourceTree = "<group>"; };
+		D1BCA14F8AEE6B7D2C434A1EB080BABF /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		D2DA3FB4F1B549C109829ABF2AF7BE6F /* ZCSpinLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCSpinLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCSpinLabel.h; sourceTree = "<group>"; };
+		D596A98392CFC4D38AD262380CDB6675 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		D5B16514C2DC3C31EC00B658E883A462 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		D7C34C97538126F2641A8077EF3D3027 /* ZCFocusLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCFocusLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFocusLabel.m; sourceTree = "<group>"; };
+		D864B7BF1ED3F70F5FCFE2EEF2DF0CD5 /* ZCThrownLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCThrownLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCThrownLabel.m; sourceTree = "<group>"; };
+		DDAE4E4A503ABA6DFB72B8874714D06B /* Pods-Changemakers_Designer_View.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Changemakers_Designer_View.modulemap"; sourceTree = "<group>"; };
+		E24865DCD12DD5683297EC0B0E6477FC /* ZCEasingUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCEasingUtil.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCEasingUtil.h; sourceTree = "<group>"; };
+		E42250D12A62F7B32FA5042F8008670E /* ZCDashLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCDashLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCDashLabel.m; sourceTree = "<group>"; };
+		E4E18BDA0E09A91EF208F35DE9C9E7D7 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		E8EB51E04EFACEC67E258584C769E008 /* ZCDuangLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCDuangLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCDuangLabel.h; sourceTree = "<group>"; };
+		EF4FBC81345CC4F9D406CF89F89EBFF5 /* ZCDashLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCDashLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCDashLabel.h; sourceTree = "<group>"; };
+		F076EC488C8A576E66B1BB8CDB1A6D8E /* ZCFlyinLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCFlyinLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFlyinLabel.m; sourceTree = "<group>"; };
+		F510521E1402246A2999DE32B2FBA4AF /* SwiftChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F547D044DCE32A25933814963096E4C4 /* Pods-Changemakers_Designer_View-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Changemakers_Designer_View-dummy.m"; sourceTree = "<group>"; };
+		F5A9363E2C25CF675D7D384F0C8D07F6 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		FE5F7C81F704992230C41E8AA938B14F /* ZCCoreTextLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCCoreTextLayout.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCCoreTextLayout.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34257D8D65F18D0A5BB3F43B3801978E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2F452157ACD45DC0FC0615DFEFB452 /* Foundation.framework in Frameworks */,
+				0A4D064F4BE8AF47F306D0359FDAF0CA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C98C6996B1A34609154692AD81F08A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E924CB3966AA4465A9547C3F25910AE /* Foundation.framework in Frameworks */,
+				638FBC74DCBA6EB7EBB7AA2B61CFA6AA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9EFF0A5E68461D8FFB98DEB8B1D6E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2031BA60DE8EB90CEC0B036D04307C57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F557CF4AD6DBA5015F84D88EED34652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9422566DB0FD084BCF4A281AE24F3433 /* CoreText.framework in Frameworks */,
+				D36DEE04AAE5DCFBDC992963618E4124 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3116DF309DAE5EF583D044A06C41D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C24AF70A922D288F17E9100775D43D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1CA95E532A8F990E19506982FA04EE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22042F48E2E8AE23CE49821824EF4F4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60D19E521030BE61A3D2AC22359315A2 /* Info.plist */,
+				25380EAF635BF8B7D80AB863935125B5 /* ZCAnimatedLabel.modulemap */,
+				19067C0353F2E69A7592C410BD456521 /* ZCAnimatedLabel.xcconfig */,
+				97083CBA1FF49BD0E6F17FEA99A199B2 /* ZCAnimatedLabel-dummy.m */,
+				2A5AAF0F942EB5F31B60C22856AFE624 /* ZCAnimatedLabel-prefix.pch */,
+				0DE2699442C5CDADF6CB67291BE724F9 /* ZCAnimatedLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZCAnimatedLabel";
+			sourceTree = "<group>";
+		};
+		254700F5FB6F69922E644C6A524553AA /* Pods-Changemakers_Designer_View */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA7EA4B34175879BB7B3B9032FCE20 /* Info.plist */,
+				DDAE4E4A503ABA6DFB72B8874714D06B /* Pods-Changemakers_Designer_View.modulemap */,
+				CE1670628C7F25CD6E214765A075C8B1 /* Pods-Changemakers_Designer_View-acknowledgements.markdown */,
+				61B931AEBC8BD1539AD2A7D7EF587BCF /* Pods-Changemakers_Designer_View-acknowledgements.plist */,
+				F547D044DCE32A25933814963096E4C4 /* Pods-Changemakers_Designer_View-dummy.m */,
+				C02B2660934F0280D92FB2C126D17692 /* Pods-Changemakers_Designer_View-frameworks.sh */,
+				5A1CA18B2D9097AB77E18F15821E9BBD /* Pods-Changemakers_Designer_View-resources.sh */,
+				200BB80E2D1F45ACA3742808CF63215C /* Pods-Changemakers_Designer_View-umbrella.h */,
+				365CF2154659E96A8B2D17D41312F9B5 /* Pods-Changemakers_Designer_View.debug.xcconfig */,
+				82F7D3CFD1F8428340DE6EB3D42723F6 /* Pods-Changemakers_Designer_View.release.xcconfig */,
+			);
+			name = "Pods-Changemakers_Designer_View";
+			path = "Target Support Files/Pods-Changemakers_Designer_View";
+			sourceTree = "<group>";
+		};
+		773D84B30D2FCBF0D5EFE5FA44902E7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E145803BD14C6C12F8AED13861FAEDCF /* SwiftChart */,
+				E131BCE0D742317FC865F275EFBBE1D4 /* TextFieldEffects */,
+				85DBD45B43665FF3ACF3858FD34A5CBF /* TransitionButton */,
+				805B767ABCCCB53F9B6D9D53EB34983C /* ZCAnimatedLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77CE55415ED166FCA488D34F46D9FE17 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				854FC82C00686F1B9C3A5265894C7DD6 /* Info.plist */,
+				65CDB25CB1F9420034C57DD9235ACBA6 /* SwiftChart.modulemap */,
+				73A2A9D27830F88E7F7D92443BCF552C /* SwiftChart.xcconfig */,
+				A13BB87471FC9BA323CE9AB48422F619 /* SwiftChart-dummy.m */,
+				B339216E5C5EAAAA1C914D0F0E3635FB /* SwiftChart-prefix.pch */,
+				544758674054F31DFDB362D3B96EA1DE /* SwiftChart-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftChart";
+			sourceTree = "<group>";
+		};
+		77D90BEDF687F13D64D2FC6F9A489CC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				837A028E5C7E506BECF56FCBF14A7296 /* Info.plist */,
+				57EBF130945651C6913CA50A2E4052BE /* TransitionButton.modulemap */,
+				C5B829D4C9BD50538C3458A32AD2595A /* TransitionButton.xcconfig */,
+				6221BA3EFB07184B454746849DDDD2AF /* TransitionButton-dummy.m */,
+				CF3BB5746DCD47D2B09D609FE6696CB5 /* TransitionButton-prefix.pch */,
+				5A231A2656A086B8D8AFBBC582FD8B12 /* TransitionButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TransitionButton";
+			sourceTree = "<group>";
+		};
+		7A23DD8DF12EA44A2C7A0421256E10F0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				254700F5FB6F69922E644C6A524553AA /* Pods-Changemakers_Designer_View */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				773D84B30D2FCBF0D5EFE5FA44902E7F /* Pods */,
+				9C62DF52F76DB74A7F33039269C4E3DD /* Products */,
+				7A23DD8DF12EA44A2C7A0421256E10F0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		805B767ABCCCB53F9B6D9D53EB34983C /* ZCAnimatedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				419729195494D6519C27AA4F32F84BA4 /* ZCAnimatedLabel.h */,
+				8ECCD1F4387F73D6030FC2B74B83C11E /* ZCAnimatedLabel.m */,
+				FE5F7C81F704992230C41E8AA938B14F /* ZCCoreTextLayout.h */,
+				69248BE51D758FDBF935F34843F0803A /* ZCCoreTextLayout.m */,
+				EF4FBC81345CC4F9D406CF89F89EBFF5 /* ZCDashLabel.h */,
+				E42250D12A62F7B32FA5042F8008670E /* ZCDashLabel.m */,
+				E8EB51E04EFACEC67E258584C769E008 /* ZCDuangLabel.h */,
+				3B54A33E1D95409A5E699D522C877239 /* ZCDuangLabel.m */,
+				E24865DCD12DD5683297EC0B0E6477FC /* ZCEasingUtil.h */,
+				555582409A57AAFB5ADAE55C5EA61549 /* ZCEasingUtil.m */,
+				3550F7CF26DE3787097490816519030D /* ZCFallLabel.h */,
+				6F299B0A3392E2406B5C719FA3BC4FA8 /* ZCFallLabel.m */,
+				66C64F074181AE88C9B53166F696C310 /* ZCFlyinLabel.h */,
+				F076EC488C8A576E66B1BB8CDB1A6D8E /* ZCFlyinLabel.m */,
+				CFBDB53FC178178D6310C997D7766463 /* ZCFocusLabel.h */,
+				D7C34C97538126F2641A8077EF3D3027 /* ZCFocusLabel.m */,
+				6C3A29BFD9C87D897A747DFE4E78A828 /* ZCRevealLabel.h */,
+				888B869E0B79C3CEC29799EF8C1A8C35 /* ZCRevealLabel.m */,
+				4462FF1D530DE634CEF27985249CEFB3 /* ZCShapeshiftLabel.h */,
+				AAB17973493DAA86ACDD75669CFA4678 /* ZCShapeshiftLabel.m */,
+				D2DA3FB4F1B549C109829ABF2AF7BE6F /* ZCSpinLabel.h */,
+				3A09C4BE03A697461F4E6F9B9C24AB3D /* ZCSpinLabel.m */,
+				023A9CFF16A7CFD6E9C99C571565FA25 /* ZCThrownLabel.h */,
+				D864B7BF1ED3F70F5FCFE2EEF2DF0CD5 /* ZCThrownLabel.m */,
+				3F088F7D415BE40346D44B8407BBE0D1 /* ZCTransparencyLabel.h */,
+				90C82D8106136A4B4FC473CB990D77BE /* ZCTransparencyLabel.m */,
+				22042F48E2E8AE23CE49821824EF4F4D /* Support Files */,
+			);
+			path = ZCAnimatedLabel;
+			sourceTree = "<group>";
+		};
+		85DBD45B43665FF3ACF3858FD34A5CBF /* TransitionButton */ = {
+			isa = PBXGroup;
+			children = (
+				70138B85C8101EBF57A40D18D8642CA5 /* CGRectExtension.swift */,
+				BF6B887F2EF2A7093654062F99FEE980 /* CustomTransitionViewController.swift */,
+				41715E6DE7740325B1A7356461C69F21 /* FadeTransition.swift */,
+				3652AB57C98C4BB7428A44F41A66E1BB /* SpinerLayer.swift */,
+				8B709089A76C24F6FF12618126469AEE /* TransitionButton.swift */,
+				77D90BEDF687F13D64D2FC6F9A489CC1 /* Support Files */,
+			);
+			path = TransitionButton;
+			sourceTree = "<group>";
+		};
+		86401624F515F678EEFBC878659AB36F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				064348B0BD76B10B12DED81BC8194371 /* Info.plist */,
+				6AF56EFB1E93FBA59A7E4A644C30589D /* TextFieldEffects.modulemap */,
+				0990304056DC246BDFF3B766809132C8 /* TextFieldEffects.xcconfig */,
+				C5D11F3BDFE5351A21673580E9D92F02 /* TextFieldEffects-dummy.m */,
+				F5A9363E2C25CF675D7D384F0C8D07F6 /* TextFieldEffects-prefix.pch */,
+				A9C1A6578D8F0988E8B86E0D32E95E91 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		9C62DF52F76DB74A7F33039269C4E3DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C8CE1F3EE9DC25122347DEB1490DE56 /* Pods_Changemakers_Designer_View.framework */,
+				F510521E1402246A2999DE32B2FBA4AF /* SwiftChart.framework */,
+				93F1D8E04EBAB62BA2AFABFAED178394 /* TextFieldEffects.framework */,
+				5402FEC16E7C051DF6483D6E1E80D9E8 /* TransitionButton.framework */,
+				8ECD23A779A62A294C5C498A0A8C0C09 /* ZCAnimatedLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E131BCE0D742317FC865F275EFBBE1D4 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				3742F2B7AFC189B8853DFF94ABA18AF6 /* AkiraTextField.swift */,
+				BBB424FAD5503A4C25FFFB2393CA5A55 /* HoshiTextField.swift */,
+				7C349680CA7B271EFF55A13DD3D10F9F /* IsaoTextField.swift */,
+				5310B9FB537143F851C5E88E41E00837 /* JiroTextField.swift */,
+				04C436C3010C209968F30D15EC475B17 /* KaedeTextField.swift */,
+				18003CC17A6A97A4C4242D9EDE206584 /* MadokaTextField.swift */,
+				D1BCA14F8AEE6B7D2C434A1EB080BABF /* MinoruTextField.swift */,
+				D5B16514C2DC3C31EC00B658E883A462 /* TextFieldEffects.swift */,
+				E4E18BDA0E09A91EF208F35DE9C9E7D7 /* YokoTextField.swift */,
+				D596A98392CFC4D38AD262380CDB6675 /* YoshikoTextField.swift */,
+				86401624F515F678EEFBC878659AB36F /* Support Files */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		E145803BD14C6C12F8AED13861FAEDCF /* SwiftChart */ = {
+			isa = PBXGroup;
+			children = (
+				91902A3C31D00C60D7F79449E4BDA917 /* Chart.swift */,
+				62180A7BEB6DBC2AE60A58EFA64B061E /* ChartColors.swift */,
+				CACC8DCC20AE98E0328D99EC703F1E19 /* ChartSeries.swift */,
+				77CE55415ED166FCA488D34F46D9FE17 /* Support Files */,
+			);
+			path = SwiftChart;
+			sourceTree = "<group>";
+		};
+		FF1CA95E532A8F990E19506982FA04EE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */,
+				A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */,
+				27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C2A4F515A9F92FFE61E0A40DF146820 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E9E1AC24F50A7CBC50680DA9BE0877 /* SwiftChart-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3A469CACA077056C8FC48C801F9C0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF211747576455843A7A98964F54A132 /* TransitionButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3091981BE1616C9FC5D67AFC36C013C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CFF8A5D0D166A77ACAD8620295335B /* ZCAnimatedLabel-umbrella.h in Headers */,
+				4029164AC7C28AC520FCD940E51E4B02 /* ZCAnimatedLabel.h in Headers */,
+				C49803AF7E611561F9492E02DF58D70D /* ZCCoreTextLayout.h in Headers */,
+				2CE3D4244A15C6D1BDFF74E46DB4528C /* ZCDashLabel.h in Headers */,
+				897414089C284C450C89000A9B0520BA /* ZCDuangLabel.h in Headers */,
+				A68B98DC2DB2DF1C220EBAF3727CE47D /* ZCEasingUtil.h in Headers */,
+				F03A6E25D59977959388CFFE59F586E2 /* ZCFallLabel.h in Headers */,
+				79F45156B10096443EA54977B002EE48 /* ZCFlyinLabel.h in Headers */,
+				1946D621F7405B5ED17080D48266B0FD /* ZCFocusLabel.h in Headers */,
+				A5BC9D1806417E7FEA12DCEE42852944 /* ZCRevealLabel.h in Headers */,
+				F02147DF9A27B43BD68D85293ED39B08 /* ZCShapeshiftLabel.h in Headers */,
+				BB2DAAC2267CBA028B7AA692D3977F10 /* ZCSpinLabel.h in Headers */,
+				452EAFAE8527A81F0ABFA0C06B65CFC2 /* ZCThrownLabel.h in Headers */,
+				78DB293583C88B488F1A65D92E9E4D7F /* ZCTransparencyLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16150F012FE58DF8A7F4035F0B5DBC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED7264350D6937BB0F011894C06197F /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0531F0012AE629A4096E10955699159 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59E401CC334316A3B66F14AA9F06DA1 /* Pods-Changemakers_Designer_View-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F24DE235AA5F3AC216CA0B2CC3FFA60 /* Pods-Changemakers_Designer_View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFEE86F628F2E28A375A19895B7ADFE /* Build configuration list for PBXNativeTarget "Pods-Changemakers_Designer_View" */;
+			buildPhases = (
+				214DFDFDFF3E768E97AA6BA12B715315 /* Sources */,
+				E3116DF309DAE5EF583D044A06C41D32 /* Frameworks */,
+				F0531F0012AE629A4096E10955699159 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				829679E46E761492F327BB572CBAA16C /* PBXTargetDependency */,
+				C2438C2A10095ADAB0103F073CDE87D1 /* PBXTargetDependency */,
+				5A1139B10F50FB936CAC17C178633419 /* PBXTargetDependency */,
+				0C9B5DCF87E189893D87065890A85F47 /* PBXTargetDependency */,
+			);
+			name = "Pods-Changemakers_Designer_View";
+			productName = "Pods-Changemakers_Designer_View";
+			productReference = 1C8CE1F3EE9DC25122347DEB1490DE56 /* Pods_Changemakers_Designer_View.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50CA55E08CE51097C6B43000554DBB1A /* TransitionButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03DFC6866A264E15CE9D3ABE631B641 /* Build configuration list for PBXNativeTarget "TransitionButton" */;
+			buildPhases = (
+				4529AC4FDC882218CB4DDC892144054C /* Sources */,
+				4C98C6996B1A34609154692AD81F08A9 /* Frameworks */,
+				1C3A469CACA077056C8FC48C801F9C0F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransitionButton;
+			productName = TransitionButton;
+			productReference = 5402FEC16E7C051DF6483D6E1E80D9E8 /* TransitionButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		763A2474D4E93904A3B98431B05B0051 /* SwiftChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56C31091036C51D8078E233FC2B6859 /* Build configuration list for PBXNativeTarget "SwiftChart" */;
+			buildPhases = (
+				CF8215632378419BC8BC5CCB8AAA2CD2 /* Sources */,
+				34257D8D65F18D0A5BB3F43B3801978E /* Frameworks */,
+				1C2A4F515A9F92FFE61E0A40DF146820 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftChart;
+			productName = SwiftChart;
+			productReference = F510521E1402246A2999DE32B2FBA4AF /* SwiftChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82AC487053535825D2EECCF334DBDDD4 /* ZCAnimatedLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110DDAD6C3292CAAA492D7E03140A5DD /* Build configuration list for PBXNativeTarget "ZCAnimatedLabel" */;
+			buildPhases = (
+				E2A806385A7697D0010C62C34A80AC81 /* Sources */,
+				6F557CF4AD6DBA5015F84D88EED34652 /* Frameworks */,
+				3091981BE1616C9FC5D67AFC36C013C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCAnimatedLabel;
+			productName = ZCAnimatedLabel;
+			productReference = 8ECD23A779A62A294C5C498A0A8C0C09 /* ZCAnimatedLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9DBA8B915D2AEB56D79FC7CEF37F4E2 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44905290D8AA3B13188963DA31AD1D5F /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				3E9416A8800319AE7C093F04C7DF2568 /* Sources */,
+				5C9EFF0A5E68461D8FFB98DEB8B1D6E4 /* Frameworks */,
+				A16150F012FE58DF8A7F4035F0B5DBC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = 93F1D8E04EBAB62BA2AFABFAED178394 /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9C62DF52F76DB74A7F33039269C4E3DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F24DE235AA5F3AC216CA0B2CC3FFA60 /* Pods-Changemakers_Designer_View */,
+				763A2474D4E93904A3B98431B05B0051 /* SwiftChart */,
+				C9DBA8B915D2AEB56D79FC7CEF37F4E2 /* TextFieldEffects */,
+				50CA55E08CE51097C6B43000554DBB1A /* TransitionButton */,
+				82AC487053535825D2EECCF334DBDDD4 /* ZCAnimatedLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		214DFDFDFF3E768E97AA6BA12B715315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2855D158EE0A1D1DA6E743521118D412 /* Pods-Changemakers_Designer_View-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9416A8800319AE7C093F04C7DF2568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029AF97A08FD011B2E3F07E8F96425F3 /* AkiraTextField.swift in Sources */,
+				8B6220A8B6D47DB060209434CED8B617 /* HoshiTextField.swift in Sources */,
+				2E00FC13A80784A400CBB441C4CAD803 /* IsaoTextField.swift in Sources */,
+				090E1175F7160032CE86964DBC18F406 /* JiroTextField.swift in Sources */,
+				89952EC5D0D2BBEC5CAA1E1CFB0C14CF /* KaedeTextField.swift in Sources */,
+				2EA0DA529668910FE5E0BDCE8261B06E /* MadokaTextField.swift in Sources */,
+				0C343F399746EA08BE8F48499B87350D /* MinoruTextField.swift in Sources */,
+				DB193341C72B427EA77FB1694CE526A8 /* TextFieldEffects-dummy.m in Sources */,
+				DB7C38A77F2BA609E433063FE6036B79 /* TextFieldEffects.swift in Sources */,
+				82F16A1D66232BB071412FB96243D55D /* YokoTextField.swift in Sources */,
+				BFEC0375FDA5DCC70B25968C9EB85120 /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4529AC4FDC882218CB4DDC892144054C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C98B2D8159A1C6A3DF4EBB4A5635F7 /* CGRectExtension.swift in Sources */,
+				E4ECAFA93DEF5535DAC025B8353D8397 /* CustomTransitionViewController.swift in Sources */,
+				F8F4F8D6C1000E4F8832881EAEAA6713 /* FadeTransition.swift in Sources */,
+				B0CF73B278EBA1BF15BC0E51F6F3FA4A /* SpinerLayer.swift in Sources */,
+				5EAA65CEFB1D457E48A116722D54383E /* TransitionButton-dummy.m in Sources */,
+				2D454363F3B61F8F20A1B87396CE4A9A /* TransitionButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8215632378419BC8BC5CCB8AAA2CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9E58D2D4EB49F21A76762CA9AA2493 /* Chart.swift in Sources */,
+				892C313D7B0180AFC37AB0D88442CCF5 /* ChartColors.swift in Sources */,
+				7CD44967F0EABC2D7F56A6403F8EAADF /* ChartSeries.swift in Sources */,
+				BE61C3CDDED0818633E7DA738E1C830B /* SwiftChart-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A806385A7697D0010C62C34A80AC81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF851B3A5F298ED4DABDAFF4BAFBA6AF /* ZCAnimatedLabel-dummy.m in Sources */,
+				95BD7FAA728B12CF95562E9BCFEBF7E0 /* ZCAnimatedLabel.m in Sources */,
+				CF62FD92D5F2FBABD851076563D69CDC /* ZCCoreTextLayout.m in Sources */,
+				B805F88568ED0E9BF91D860DF914C254 /* ZCDashLabel.m in Sources */,
+				A154F14FCD0E8045C59A9C21391C1BE4 /* ZCDuangLabel.m in Sources */,
+				38F2BD6443754287BFA391B952D9C779 /* ZCEasingUtil.m in Sources */,
+				107191A463F322FCD4BC3CAC6B47D04A /* ZCFallLabel.m in Sources */,
+				22DF102D83FBC2020314E81035314E5C /* ZCFlyinLabel.m in Sources */,
+				2C1995E99DB19B9C77CBF35B4997086C /* ZCFocusLabel.m in Sources */,
+				63B57A7702A3BEA40A3C18732C835BBA /* ZCRevealLabel.m in Sources */,
+				B9C51EAC3C9CCC7C4AFD0B57DE2EAC07 /* ZCShapeshiftLabel.m in Sources */,
+				2E59A83BF02E3AB82CC3CCCD150CF4DB /* ZCSpinLabel.m in Sources */,
+				EEC653BD21ED6A65671357C8C7B0AC94 /* ZCThrownLabel.m in Sources */,
+				74D449786F21E06C4345B59144E3F1C3 /* ZCTransparencyLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C9B5DCF87E189893D87065890A85F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCAnimatedLabel;
+			target = 82AC487053535825D2EECCF334DBDDD4 /* ZCAnimatedLabel */;
+			targetProxy = 7EBBDEEA352BFF085076695E4E5E8B8E /* PBXContainerItemProxy */;
+		};
+		5A1139B10F50FB936CAC17C178633419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TransitionButton;
+			target = 50CA55E08CE51097C6B43000554DBB1A /* TransitionButton */;
+			targetProxy = 9FEFD8CB89AC8F5E563B3B1261AB880D /* PBXContainerItemProxy */;
+		};
+		829679E46E761492F327BB572CBAA16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftChart;
+			target = 763A2474D4E93904A3B98431B05B0051 /* SwiftChart */;
+			targetProxy = 6D150007056C803E70EA91B8B6704243 /* PBXContainerItemProxy */;
+		};
+		C2438C2A10095ADAB0103F073CDE87D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = C9DBA8B915D2AEB56D79FC7CEF37F4E2 /* TextFieldEffects */;
+			targetProxy = 0E2D0D2F0FFD7D68CFF314628B2EF479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CE17E179458DCF3FB115197CF32ABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F7D3CFD1F8428340DE6EB3D42723F6 /* Pods-Changemakers_Designer_View.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Changemakers_Designer_View/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Changemakers_Designer_View/Pods-Changemakers_Designer_View.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Changemakers_Designer_View;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C816341E237F688B7375282D3F500CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B829D4C9BD50538C3458A32AD2595A /* TransitionButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionButton/TransitionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransitionButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TransitionButton/TransitionButton.modulemap";
+				PRODUCT_NAME = TransitionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3AFC8FED92B479CDE995AB5EB7E5E48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A2A9D27830F88E7F7D92443BCF552C /* SwiftChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftChart/SwiftChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftChart/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftChart/SwiftChart.modulemap";
+				PRODUCT_NAME = SwiftChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74FEA06C7CC2AAD5319888E599E30CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B829D4C9BD50538C3458A32AD2595A /* TransitionButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionButton/TransitionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransitionButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TransitionButton/TransitionButton.modulemap";
+				PRODUCT_NAME = TransitionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B083F980239BB815438D46A7A4864722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0990304056DC246BDFF3B766809132C8 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B620998BB533B3A5150E29C9F969CA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A2A9D27830F88E7F7D92443BCF552C /* SwiftChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftChart/SwiftChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftChart/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftChart/SwiftChart.modulemap";
+				PRODUCT_NAME = SwiftChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8C3D187CC33D0BB8B441FF73E25102C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19067C0353F2E69A7592C410BD456521 /* ZCAnimatedLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZCAnimatedLabel/ZCAnimatedLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZCAnimatedLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZCAnimatedLabel/ZCAnimatedLabel.modulemap";
+				PRODUCT_NAME = ZCAnimatedLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8997F7C0DE690C292BEB3594B3D69EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19067C0353F2E69A7592C410BD456521 /* ZCAnimatedLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZCAnimatedLabel/ZCAnimatedLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZCAnimatedLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZCAnimatedLabel/ZCAnimatedLabel.modulemap";
+				PRODUCT_NAME = ZCAnimatedLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D1146B789D57CD9EE941D9D8ACD9888D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0990304056DC246BDFF3B766809132C8 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E06F21D9669242EEE1BD1A6C4A815B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365CF2154659E96A8B2D17D41312F9B5 /* Pods-Changemakers_Designer_View.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Changemakers_Designer_View/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Changemakers_Designer_View/Pods-Changemakers_Designer_View.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Changemakers_Designer_View;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110DDAD6C3292CAAA492D7E03140A5DD /* Build configuration list for PBXNativeTarget "ZCAnimatedLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8997F7C0DE690C292BEB3594B3D69EE /* Debug */,
+				B8C3D187CC33D0BB8B441FF73E25102C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44905290D8AA3B13188963DA31AD1D5F /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B083F980239BB815438D46A7A4864722 /* Debug */,
+				D1146B789D57CD9EE941D9D8ACD9888D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56C31091036C51D8078E233FC2B6859 /* Build configuration list for PBXNativeTarget "SwiftChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B620998BB533B3A5150E29C9F969CA08 /* Debug */,
+				3AFC8FED92B479CDE995AB5EB7E5E48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03DFC6866A264E15CE9D3ABE631B641 /* Build configuration list for PBXNativeTarget "TransitionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C816341E237F688B7375282D3F500CC /* Debug */,
+				74FEA06C7CC2AAD5319888E599E30CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFEE86F628F2E28A375A19895B7ADFE /* Build configuration list for PBXNativeTarget "Pods-Changemakers_Designer_View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06F21D9669242EEE1BD1A6C4A815B86 /* Debug */,
+				0CE17E179458DCF3FB115197CF32ABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

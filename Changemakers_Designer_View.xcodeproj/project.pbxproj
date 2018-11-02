@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1518EDCE58A7CD69046CD77F /* Pods_Changemakers_Designer_View.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB57E548F9BF5B687D08C7 /* Pods_Changemakers_Designer_View.framework */; };
+		89A2F02B20E31B9C00BB782E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A2F02A20E31B9C00BB782E /* AppDelegate.swift */; };
+		89A2F02D20E31B9C00BB782E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A2F02C20E31B9C00BB782E /* ViewController.swift */; };
+		89A2F03020E31B9C00BB782E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A2F02E20E31B9C00BB782E /* Main.storyboard */; };
+		89A2F03520E31B9C00BB782E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A2F03320E31B9C00BB782E /* LaunchScreen.storyboard */; };
+		89A8EB4720EA270B0030E368 /* My profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A8EB4620EA270A0030E368 /* My profile.png */; };
+		FE6AB2E12144C07A006FABE4 /* Screen Shot 2018-09-06 at 9.46.42 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2E02144C07A006FABE4 /* Screen Shot 2018-09-06 at 9.46.42 AM.png */; };
+		FE6AB30D2144C128006FABE4 /* Forward Plank 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2E32144C121006FABE4 /* Forward Plank 1.jpg */; };
+		FE6AB30E2144C128006FABE4 /* Push-up 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2E42144C121006FABE4 /* Push-up 1.jpg */; };
+		FE6AB30F2144C128006FABE4 /* Jumping jack 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2E52144C122006FABE4 /* Jumping jack 1.jpg */; };
+		FE6AB3102144C128006FABE4 /* Star Jump 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2E62144C122006FABE4 /* Star Jump 1.jpg */; };
+		FE6AB3112144C128006FABE4 /* Mountain climber 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2E72144C122006FABE4 /* Mountain climber 4.jpg */; };
+		FE6AB3122144C128006FABE4 /* Squats 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2E82144C122006FABE4 /* Squats 1.jpg */; };
+		FE6AB3132144C128006FABE4 /* High Knee 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2E92144C122006FABE4 /* High Knee 2.jpg */; };
+		FE6AB3142144C128006FABE4 /* Push-up 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2EA2144C122006FABE4 /* Push-up 2.jpg */; };
+		FE6AB3152144C128006FABE4 /* Side Plank 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2EB2144C122006FABE4 /* Side Plank 1.jpg */; };
+		FE6AB3162144C128006FABE4 /* Bicycle Crunch 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2EC2144C122006FABE4 /* Bicycle Crunch 2.jpg */; };
+		FE6AB3172144C128006FABE4 /* High Knee 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2ED2144C123006FABE4 /* High Knee 3.jpg */; };
+		FE6AB3182144C128006FABE4 /* Counter-movement Jump 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2EE2144C123006FABE4 /* Counter-movement Jump 1.jpg */; };
+		FE6AB3192144C128006FABE4 /* Diamond Push-up 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2EF2144C123006FABE4 /* Diamond Push-up 3.jpg */; };
+		FE6AB31A2144C128006FABE4 /* Mountain climber 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2F02144C123006FABE4 /* Mountain climber 2.jpg */; };
+		FE6AB31B2144C128006FABE4 /* Diamond Push-up 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2F12144C123006FABE4 /* Diamond Push-up 2.jpg */; };
+		FE6AB31C2144C128006FABE4 /* Star Jump 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2F22144C123006FABE4 /* Star Jump 2.jpg */; };
+		FE6AB31D2144C128006FABE4 /* Butt Kicks 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2F32144C123006FABE4 /* Butt Kicks 2.jpg */; };
+		FE6AB31E2144C128006FABE4 /* Mountain climber 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2F42144C124006FABE4 /* Mountain climber 3.jpg */; };
+		FE6AB31F2144C128006FABE4 /* Mountain climber 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2F52144C124006FABE4 /* Mountain climber 1.jpg */; };
+		FE6AB3202144C128006FABE4 /* Star Jump 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2F62144C124006FABE4 /* Star Jump 3.jpg */; };
+		FE6AB3212144C128006FABE4 /* Tuck Jump 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2F72144C124006FABE4 /* Tuck Jump 2.jpg */; };
+		FE6AB3222144C128006FABE4 /* Diamond Push-up 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2F82144C124006FABE4 /* Diamond Push-up 1.jpg */; };
+		FE6AB3232144C128006FABE4 /* Arm and Leg Raise 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2F92144C124006FABE4 /* Arm and Leg Raise 2.jpg */; };
+		FE6AB3242144C128006FABE4 /* Jumping jack 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2FA2144C124006FABE4 /* Jumping jack 2.jpg */; };
+		FE6AB3252144C128006FABE4 /* Counter-movement Jump 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2FB2144C125006FABE4 /* Counter-movement Jump 2.jpg */; };
+		FE6AB3262144C128006FABE4 /* Butt Kicks 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2FC2144C125006FABE4 /* Butt Kicks 4.jpg */; };
+		FE6AB3272144C128006FABE4 /* Tuck Jump 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2FD2144C125006FABE4 /* Tuck Jump 1.jpg */; };
+		FE6AB3282144C128006FABE4 /* Jumping jack 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2FE2144C125006FABE4 /* Jumping jack 4.jpg */; };
+		FE6AB3292144C128006FABE4 /* Jumping jack 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB2FF2144C125006FABE4 /* Jumping jack 3.jpg */; };
+		FE6AB32A2144C128006FABE4 /* High Knee 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB3002144C125006FABE4 /* High Knee 1.jpg */; };
+		FE6AB32B2144C128006FABE4 /* Butterfly Kick 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB3012144C126006FABE4 /* Butterfly Kick 1.jpg */; };
+		FE6AB32C2144C128006FABE4 /* Lunges 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB3022144C126006FABE4 /* Lunges 1.jpg */; };
+		FE6AB32D2144C128006FABE4 /* Bicycle Crunch 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB3032144C126006FABE4 /* Bicycle Crunch 1.jpg */; };
+		FE6AB32E2144C128006FABE4 /* Leg Lift 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB3042144C126006FABE4 /* Leg Lift 2.jpg */; };
+		FE6AB32F2144C128006FABE4 /* Ballet Twist 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB3052144C126006FABE4 /* Ballet Twist 1.jpg */; };
+		FE6AB3302144C128006FABE4 /* Butt Kicks 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB3062144C126006FABE4 /* Butt Kicks 1.jpg */; };
+		FE6AB3312144C128006FABE4 /* Butt Kicks 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB3072144C127006FABE4 /* Butt Kicks 3.jpg */; };
+		FE6AB3322144C128006FABE4 /* Cobra Stretch 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB3082144C127006FABE4 /* Cobra Stretch 1.jpg */; };
+		FE6AB3332144C128006FABE4 /* Crunch 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB3092144C127006FABE4 /* Crunch 2.jpg */; };
+		FE6AB3342144C128006FABE4 /* Arm and Leg Raise 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB30A2144C127006FABE4 /* Arm and Leg Raise 1.jpg */; };
+		FE6AB3352144C128006FABE4 /* Crunch 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB30B2144C127006FABE4 /* Crunch 1.jpg */; };
+		FE6AB3362144C128006FABE4 /* Leg Lift 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6AB30C2144C127006FABE4 /* Leg Lift 1.jpg */; };
+		FE7049612112776A00687FB0 /* detaildetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7049602112776A00687FB0 /* detaildetailViewController.swift */; };
+		FE7D3D1620F09C72007DFAE8 /* sectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D3D1520F09C72007DFAE8 /* sectionTableViewController.swift */; };
+		FE7D3D1820F09EF5007DFAE8 /* report.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7D3D1720F09EF5007DFAE8 /* report.png */; };
+		FE7D3D1A20F0A3DC007DFAE8 /* reportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D3D1920F0A3DC007DFAE8 /* reportTableViewController.swift */; };
+		FE7D3D1C20F0BFF8007DFAE8 /* exercisesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D3D1B20F0BFF8007DFAE8 /* exercisesTableViewController.swift */; };
+		FEA38095214508B40005DE02 /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FEA38094214507B10005DE02 /* movie.mp4 */; };
+		FEA3809721451CC10005DE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA3809621451CC10005DE02 /* Assets.xcassets */; };
+		FEA380CB2148EA040005DE02 /* MALE,Pull-Ups.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380BA2148EA030005DE02 /* MALE,Pull-Ups.png */; };
+		FEA380CC2148EA040005DE02 /* MALE,Inclined Pull-Ups.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380BB2148EA030005DE02 /* MALE,Inclined Pull-Ups.png */; };
+		FEA380CD2148EA040005DE02 /* FEMALE,Inclined pull up.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380BC2148EA030005DE02 /* FEMALE,Inclined pull up.png */; };
+		FEA380CE2148EA040005DE02 /* MALE,Sit-ups.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380BD2148EA030005DE02 /* MALE,Sit-ups.png */; };
+		FEA380CF2148EA040005DE02 /* FEMALE,Shuttle-run.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380BE2148EA030005DE02 /* FEMALE,Shuttle-run.png */; };
+		FEA380D02148EA040005DE02 /* MALE,Pull-Up.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380BF2148EA030005DE02 /* MALE,Pull-Up.png */; };
+		FEA380D12148EA040005DE02 /* FEMALE,2.4 km run.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380C02148EA030005DE02 /* FEMALE,2.4 km run.png */; };
+		FEA380D22148EA040005DE02 /* MALE,2.4 km run.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380C12148EA030005DE02 /* MALE,2.4 km run.png */; };
+		FEA380D32148EA040005DE02 /* MALE,Shuttle-run.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380C22148EA030005DE02 /* MALE,Shuttle-run.png */; };
+		FEA380D42148EA040005DE02 /* MALE,2.4km Run.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380C32148EA030005DE02 /* MALE,2.4km Run.png */; };
+		FEA380D52148EA040005DE02 /* MALE,Sit and reach.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380C42148EA030005DE02 /* MALE,Sit and reach.png */; };
+		FEA380D62148EA040005DE02 /* FEMALE,Sit-ups.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380C52148EA030005DE02 /* FEMALE,Sit-ups.png */; };
+		FEA380D72148EA040005DE02 /* MALE,Standing broad jump.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380C62148EA030005DE02 /* MALE,Standing broad jump.png */; };
+		FEA380D82148EA040005DE02 /* MALE,Sit and reach (cm).png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380C72148EA040005DE02 /* MALE,Sit and reach (cm).png */; };
+		FEA380D92148EA040005DE02 /* FEMALE,Sit and reach.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380C82148EA040005DE02 /* FEMALE,Sit and reach.png */; };
+		FEA380DA2148EA040005DE02 /* FEMALE,Standing broad jump.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380C92148EA040005DE02 /* FEMALE,Standing broad jump.png */; };
+		FEA380DB2148EA040005DE02 /* MALE,Inclined pull up.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA380CA2148EA040005DE02 /* MALE,Inclined pull up.png */; };
+		FEAE8CD220E87834006EA02F /* max.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE8CD120E87834006EA02F /* max.swift */; };
+		FED4A6A5212E7102000AD0B3 /* searchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED4A6A4212E7102000AD0B3 /* searchTableViewController.swift */; };
+		FED4A6A7212E715D000AD0B3 /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED4A6A6212E715D000AD0B3 /* DataCell.swift */; };
+		FEDB85D620FE1A8700585639 /* mocktestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDB85D520FE1A8700585639 /* mocktestViewController.swift */; };
+		FEDB85E220FF408D00585639 /* Sit-up.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEDB85E120FF408D00585639 /* Sit-up.jpeg */; };
+		FEDB85E420FF41E100585639 /* pull-up.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEDB85E320FF41E100585639 /* pull-up.jpeg */; };
+		FEDB85E620FF41E500585639 /* Shuttle run.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEDB85E520FF41E500585639 /* Shuttle run.jpeg */; };
+		FEDB85E820FF42C000585639 /* Sit and reach.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEDB85E720FF42C000585639 /* Sit and reach.jpeg */; };
+		FEDB85EA20FF435800585639 /* Standingboardjump.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEDB85E920FF435800585639 /* Standingboardjump.jpeg */; };
+		FEDB85EE20FF450200585639 /* Running.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEDB85ED20FF450200585639 /* Running.jpeg */; };
+		FEDB85F02101945100585639 /* sectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDB85EF2101945100585639 /* sectionTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89A2F02720E31B9C00BB782E /* Changemakers_Designer_View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Changemakers_Designer_View.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A2F02A20E31B9C00BB782E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89A2F02C20E31B9C00BB782E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89A2F02F20E31B9C00BB782E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89A2F03420E31B9C00BB782E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89A2F03620E31B9C00BB782E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A8EB4620EA270A0030E368 /* My profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My profile.png"; sourceTree = "<group>"; };
+		B5925D36D83AB40DB9B7A050 /* Pods-Changemakers_Designer_View.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Changemakers_Designer_View.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Changemakers_Designer_View/Pods-Changemakers_Designer_View.debug.xcconfig"; sourceTree = "<group>"; };
+		E3FB57E548F9BF5B687D08C7 /* Pods_Changemakers_Designer_View.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Changemakers_Designer_View.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1ECDC357B3644CA940F1DC /* Pods-Changemakers_Designer_View.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Changemakers_Designer_View.release.xcconfig"; path = "Pods/Target Support Files/Pods-Changemakers_Designer_View/Pods-Changemakers_Designer_View.release.xcconfig"; sourceTree = "<group>"; };
+		FE6AB2E02144C07A006FABE4 /* Screen Shot 2018-09-06 at 9.46.42 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2018-09-06 at 9.46.42 AM.png"; sourceTree = "<group>"; };
+		FE6AB2E32144C121006FABE4 /* Forward Plank 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Forward Plank 1.jpg"; sourceTree = "<group>"; };
+		FE6AB2E42144C121006FABE4 /* Push-up 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Push-up 1.jpg"; sourceTree = "<group>"; };
+		FE6AB2E52144C122006FABE4 /* Jumping jack 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jumping jack 1.jpg"; sourceTree = "<group>"; };
+		FE6AB2E62144C122006FABE4 /* Star Jump 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Star Jump 1.jpg"; sourceTree = "<group>"; };
+		FE6AB2E72144C122006FABE4 /* Mountain climber 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mountain climber 4.jpg"; sourceTree = "<group>"; };
+		FE6AB2E82144C122006FABE4 /* Squats 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Squats 1.jpg"; sourceTree = "<group>"; };
+		FE6AB2E92144C122006FABE4 /* High Knee 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "High Knee 2.jpg"; sourceTree = "<group>"; };
+		FE6AB2EA2144C122006FABE4 /* Push-up 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Push-up 2.jpg"; sourceTree = "<group>"; };
+		FE6AB2EB2144C122006FABE4 /* Side Plank 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Side Plank 1.jpg"; sourceTree = "<group>"; };
+		FE6AB2EC2144C122006FABE4 /* Bicycle Crunch 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bicycle Crunch 2.jpg"; sourceTree = "<group>"; };
+		FE6AB2ED2144C123006FABE4 /* High Knee 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "High Knee 3.jpg"; sourceTree = "<group>"; };
+		FE6AB2EE2144C123006FABE4 /* Counter-movement Jump 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Counter-movement Jump 1.jpg"; sourceTree = "<group>"; };
+		FE6AB2EF2144C123006FABE4 /* Diamond Push-up 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Diamond Push-up 3.jpg"; sourceTree = "<group>"; };
+		FE6AB2F02144C123006FABE4 /* Mountain climber 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mountain climber 2.jpg"; sourceTree = "<group>"; };
+		FE6AB2F12144C123006FABE4 /* Diamond Push-up 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Diamond Push-up 2.jpg"; sourceTree = "<group>"; };
+		FE6AB2F22144C123006FABE4 /* Star Jump 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Star Jump 2.jpg"; sourceTree = "<group>"; };
+		FE6AB2F32144C123006FABE4 /* Butt Kicks 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Butt Kicks 2.jpg"; sourceTree = "<group>"; };
+		FE6AB2F42144C124006FABE4 /* Mountain climber 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mountain climber 3.jpg"; sourceTree = "<group>"; };
+		FE6AB2F52144C124006FABE4 /* Mountain climber 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mountain climber 1.jpg"; sourceTree = "<group>"; };
+		FE6AB2F62144C124006FABE4 /* Star Jump 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Star Jump 3.jpg"; sourceTree = "<group>"; };
+		FE6AB2F72144C124006FABE4 /* Tuck Jump 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tuck Jump 2.jpg"; sourceTree = "<group>"; };
+		FE6AB2F82144C124006FABE4 /* Diamond Push-up 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Diamond Push-up 1.jpg"; sourceTree = "<group>"; };
+		FE6AB2F92144C124006FABE4 /* Arm and Leg Raise 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Arm and Leg Raise 2.jpg"; sourceTree = "<group>"; };
+		FE6AB2FA2144C124006FABE4 /* Jumping jack 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jumping jack 2.jpg"; sourceTree = "<group>"; };
+		FE6AB2FB2144C125006FABE4 /* Counter-movement Jump 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Counter-movement Jump 2.jpg"; sourceTree = "<group>"; };
+		FE6AB2FC2144C125006FABE4 /* Butt Kicks 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Butt Kicks 4.jpg"; sourceTree = "<group>"; };
+		FE6AB2FD2144C125006FABE4 /* Tuck Jump 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tuck Jump 1.jpg"; sourceTree = "<group>"; };
+		FE6AB2FE2144C125006FABE4 /* Jumping jack 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jumping jack 4.jpg"; sourceTree = "<group>"; };
+		FE6AB2FF2144C125006FABE4 /* Jumping jack 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jumping jack 3.jpg"; sourceTree = "<group>"; };
+		FE6AB3002144C125006FABE4 /* High Knee 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "High Knee 1.jpg"; sourceTree = "<group>"; };
+		FE6AB3012144C126006FABE4 /* Butterfly Kick 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Butterfly Kick 1.jpg"; sourceTree = "<group>"; };
+		FE6AB3022144C126006FABE4 /* Lunges 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lunges 1.jpg"; sourceTree = "<group>"; };
+		FE6AB3032144C126006FABE4 /* Bicycle Crunch 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bicycle Crunch 1.jpg"; sourceTree = "<group>"; };
+		FE6AB3042144C126006FABE4 /* Leg Lift 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Leg Lift 2.jpg"; sourceTree = "<group>"; };
+		FE6AB3052144C126006FABE4 /* Ballet Twist 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ballet Twist 1.jpg"; sourceTree = "<group>"; };
+		FE6AB3062144C126006FABE4 /* Butt Kicks 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Butt Kicks 1.jpg"; sourceTree = "<group>"; };
+		FE6AB3072144C127006FABE4 /* Butt Kicks 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Butt Kicks 3.jpg"; sourceTree = "<group>"; };
+		FE6AB3082144C127006FABE4 /* Cobra Stretch 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cobra Stretch 1.jpg"; sourceTree = "<group>"; };
+		FE6AB3092144C127006FABE4 /* Crunch 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crunch 2.jpg"; sourceTree = "<group>"; };
+		FE6AB30A2144C127006FABE4 /* Arm and Leg Raise 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Arm and Leg Raise 1.jpg"; sourceTree = "<group>"; };
+		FE6AB30B2144C127006FABE4 /* Crunch 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crunch 1.jpg"; sourceTree = "<group>"; };
+		FE6AB30C2144C127006FABE4 /* Leg Lift 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Leg Lift 1.jpg"; sourceTree = "<group>"; };
+		FE7049602112776A00687FB0 /* detaildetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detaildetailViewController.swift; sourceTree = "<group>"; };
+		FE7D3D1520F09C72007DFAE8 /* sectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sectionTableViewController.swift; sourceTree = "<group>"; };
+		FE7D3D1720F09EF5007DFAE8 /* report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = report.png; sourceTree = "<group>"; };
+		FE7D3D1920F0A3DC007DFAE8 /* reportTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reportTableViewController.swift; sourceTree = "<group>"; };
+		FE7D3D1B20F0BFF8007DFAE8 /* exercisesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercisesTableViewController.swift; sourceTree = "<group>"; };
+		FEA38094214507B10005DE02 /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.mp4; sourceTree = "<group>"; };
+		FEA3809621451CC10005DE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEA380BA2148EA030005DE02 /* MALE,Pull-Ups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MALE,Pull-Ups.png"; sourceTree = "<group>"; };
+		FEA380BB2148EA030005DE02 /* MALE,Inclined Pull-Ups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MALE,Inclined Pull-Ups.png"; sourceTree = "<group>"; };
+		FEA380BC2148EA030005DE02 /* FEMALE,Inclined pull up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FEMALE,Inclined pull up.png"; sourceTree = "<group>"; };
+		FEA380BD2148EA030005DE02 /* MALE,Sit-ups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MALE,Sit-ups.png"; sourceTree = "<group>"; };
+		FEA380BE2148EA030005DE02 /* FEMALE,Shuttle-run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FEMALE,Shuttle-run.png"; sourceTree = "<group>"; };
+		FEA380BF2148EA030005DE02 /* MALE,Pull-Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MALE,Pull-Up.png"; sourceTree = "<group>"; };
+		FEA380C02148EA030005DE02 /* FEMALE,2.4 km run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FEMALE,2.4 km run.png"; sourceTree = "<group>"; };
+		FEA380C12148EA030005DE02 /* MALE,2.4 km run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MALE,2.4 km run.png"; sourceTree = "<group>"; };
+		FEA380C22148EA030005DE02 /* MALE,Shuttle-run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MALE,Shuttle-run.png"; sourceTree = "<group>"; };
+		FEA380C32148EA030005DE02 /* MALE,2.4km Run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MALE,2.4km Run.png"; sourceTree = "<group>"; };
+		FEA380C42148EA030005DE02 /* MALE,Sit and reach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MALE,Sit and reach.png"; sourceTree = "<group>"; };
+		FEA380C52148EA030005DE02 /* FEMALE,Sit-ups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FEMALE,Sit-ups.png"; sourceTree = "<group>"; };
+		FEA380C62148EA030005DE02 /* MALE,Standing broad jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MALE,Standing broad jump.png"; sourceTree = "<group>"; };
+		FEA380C72148EA040005DE02 /* MALE,Sit and reach (cm).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MALE,Sit and reach (cm).png"; sourceTree = "<group>"; };
+		FEA380C82148EA040005DE02 /* FEMALE,Sit and reach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FEMALE,Sit and reach.png"; sourceTree = "<group>"; };
+		FEA380C92148EA040005DE02 /* FEMALE,Standing broad jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FEMALE,Standing broad jump.png"; sourceTree = "<group>"; };
+		FEA380CA2148EA040005DE02 /* MALE,Inclined pull up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MALE,Inclined pull up.png"; sourceTree = "<group>"; };
+		FEAE8CD120E87834006EA02F /* max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = max.swift; sourceTree = "<group>"; };
+		FED4A6A4212E7102000AD0B3 /* searchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchTableViewController.swift; sourceTree = "<group>"; };
+		FED4A6A6212E715D000AD0B3 /* DataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
+		FEDB85D520FE1A8700585639 /* mocktestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mocktestViewController.swift; sourceTree = "<group>"; };
+		FEDB85E120FF408D00585639 /* Sit-up.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sit-up.jpeg"; sourceTree = "<group>"; };
+		FEDB85E320FF41E100585639 /* pull-up.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pull-up.jpeg"; sourceTree = "<group>"; };
+		FEDB85E520FF41E500585639 /* Shuttle run.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shuttle run.jpeg"; sourceTree = "<group>"; };
+		FEDB85E720FF42C000585639 /* Sit and reach.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sit and reach.jpeg"; sourceTree = "<group>"; };
+		FEDB85E920FF435800585639 /* Standingboardjump.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Standingboardjump.jpeg; sourceTree = "<group>"; };
+		FEDB85ED20FF450200585639 /* Running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Running.jpeg; sourceTree = "<group>"; };
+		FEDB85EF2101945100585639 /* sectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sectionTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89A2F02420E31B9C00BB782E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1518EDCE58A7CD69046CD77F /* Pods_Changemakers_Designer_View.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89A2F01E20E31B9C00BB782E = {
+			isa = PBXGroup;
+			children = (
+				89A2F02920E31B9C00BB782E /* Changemakers INITIAL DESIGN */,
+				89A2F02820E31B9C00BB782E /* Products */,
+				B143EDEE094A382E117D549A /* Pods */,
+				E21ECE4FC3C1F5627168AA8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89A2F02820E31B9C00BB782E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A2F02720E31B9C00BB782E /* Changemakers_Designer_View.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89A2F02920E31B9C00BB782E /* Changemakers INITIAL DESIGN */ = {
+			isa = PBXGroup;
+			children = (
+				FE6AB2E22144C10F006FABE4 /* exercise photos */,
+				FE6AAEE7213599F6006FABE4 /* About */,
+				FE32169F21357F7900E38E29 /* Male minimum */,
+				FEDB85D820FF3EEB00585639 /* Segment */,
+				FE7D3D1520F09C72007DFAE8 /* sectionTableViewController.swift */,
+				FEDB85EF2101945100585639 /* sectionTableViewCell.swift */,
+				89A2F02A20E31B9C00BB782E /* AppDelegate.swift */,
+				89A2F02E20E31B9C00BB782E /* Main.storyboard */,
+				FED4A6A4212E7102000AD0B3 /* searchTableViewController.swift */,
+				89A2F02C20E31B9C00BB782E /* ViewController.swift */,
+				FE7049602112776A00687FB0 /* detaildetailViewController.swift */,
+				FEDB85D520FE1A8700585639 /* mocktestViewController.swift */,
+				FE7D3D1B20F0BFF8007DFAE8 /* exercisesTableViewController.swift */,
+				FE7D3D1920F0A3DC007DFAE8 /* reportTableViewController.swift */,
+				FEAE8CD120E87834006EA02F /* max.swift */,
+				89A8EB4620EA270A0030E368 /* My profile.png */,
+				FE7D3D1720F09EF5007DFAE8 /* report.png */,
+				FE6AB2E02144C07A006FABE4 /* Screen Shot 2018-09-06 at 9.46.42 AM.png */,
+				89A2F03320E31B9C00BB782E /* LaunchScreen.storyboard */,
+				89A2F03620E31B9C00BB782E /* Info.plist */,
+				FEA3809621451CC10005DE02 /* Assets.xcassets */,
+			);
+			path = "Changemakers INITIAL DESIGN";
+			sourceTree = "<group>";
+		};
+		B143EDEE094A382E117D549A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5925D36D83AB40DB9B7A050 /* Pods-Changemakers_Designer_View.debug.xcconfig */,
+				FC1ECDC357B3644CA940F1DC /* Pods-Changemakers_Designer_View.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E21ECE4FC3C1F5627168AA8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB57E548F9BF5B687D08C7 /* Pods_Changemakers_Designer_View.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE32169F21357F7900E38E29 /* Male minimum */ = {
+			isa = PBXGroup;
+			children = (
+				FEA380C02148EA030005DE02 /* FEMALE,2.4 km run.png */,
+				FEA380BC2148EA030005DE02 /* FEMALE,Inclined pull up.png */,
+				FEA380BE2148EA030005DE02 /* FEMALE,Shuttle-run.png */,
+				FEA380C82148EA040005DE02 /* FEMALE,Sit and reach.png */,
+				FEA380C52148EA030005DE02 /* FEMALE,Sit-ups.png */,
+				FEA380C92148EA040005DE02 /* FEMALE,Standing broad jump.png */,
+				FEA380C12148EA030005DE02 /* MALE,2.4 km run.png */,
+				FEA380C32148EA030005DE02 /* MALE,2.4km Run.png */,
+				FEA380CA2148EA040005DE02 /* MALE,Inclined pull up.png */,
+				FEA380BB2148EA030005DE02 /* MALE,Inclined Pull-Ups.png */,
+				FEA380BF2148EA030005DE02 /* MALE,Pull-Up.png */,
+				FEA380BA2148EA030005DE02 /* MALE,Pull-Ups.png */,
+				FEA380C22148EA030005DE02 /* MALE,Shuttle-run.png */,
+				FEA380C72148EA040005DE02 /* MALE,Sit and reach (cm).png */,
+				FEA380C42148EA030005DE02 /* MALE,Sit and reach.png */,
+				FEA380BD2148EA030005DE02 /* MALE,Sit-ups.png */,
+				FEA380C62148EA030005DE02 /* MALE,Standing broad jump.png */,
+			);
+			path = "Male minimum";
+			sourceTree = "<group>";
+		};
+		FE6AAEE7213599F6006FABE4 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				FEA38094214507B10005DE02 /* movie.mp4 */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		FE6AB2E22144C10F006FABE4 /* exercise photos */ = {
+			isa = PBXGroup;
+			children = (
+				FE6AB30A2144C127006FABE4 /* Arm and Leg Raise 1.jpg */,
+				FE6AB2F92144C124006FABE4 /* Arm and Leg Raise 2.jpg */,
+				FE6AB3052144C126006FABE4 /* Ballet Twist 1.jpg */,
+				FE6AB3032144C126006FABE4 /* Bicycle Crunch 1.jpg */,
+				FE6AB2EC2144C122006FABE4 /* Bicycle Crunch 2.jpg */,
+				FE6AB3062144C126006FABE4 /* Butt Kicks 1.jpg */,
+				FE6AB2F32144C123006FABE4 /* Butt Kicks 2.jpg */,
+				FE6AB3072144C127006FABE4 /* Butt Kicks 3.jpg */,
+				FE6AB2FC2144C125006FABE4 /* Butt Kicks 4.jpg */,
+				FE6AB3012144C126006FABE4 /* Butterfly Kick 1.jpg */,
+				FE6AB3082144C127006FABE4 /* Cobra Stretch 1.jpg */,
+				FE6AB2EE2144C123006FABE4 /* Counter-movement Jump 1.jpg */,
+				FE6AB2FB2144C125006FABE4 /* Counter-movement Jump 2.jpg */,
+				FE6AB30B2144C127006FABE4 /* Crunch 1.jpg */,
+				FE6AB3092144C127006FABE4 /* Crunch 2.jpg */,
+				FE6AB2F82144C124006FABE4 /* Diamond Push-up 1.jpg */,
+				FE6AB2F12144C123006FABE4 /* Diamond Push-up 2.jpg */,
+				FE6AB2EF2144C123006FABE4 /* Diamond Push-up 3.jpg */,
+				FE6AB2E32144C121006FABE4 /* Forward Plank 1.jpg */,
+				FE6AB3002144C125006FABE4 /* High Knee 1.jpg */,
+				FE6AB2E92144C122006FABE4 /* High Knee 2.jpg */,
+				FE6AB2ED2144C123006FABE4 /* High Knee 3.jpg */,
+				FE6AB2E52144C122006FABE4 /* Jumping jack 1.jpg */,
+				FE6AB2FA2144C124006FABE4 /* Jumping jack 2.jpg */,
+				FE6AB2FF2144C125006FABE4 /* Jumping jack 3.jpg */,
+				FE6AB2FE2144C125006FABE4 /* Jumping jack 4.jpg */,
+				FE6AB30C2144C127006FABE4 /* Leg Lift 1.jpg */,
+				FE6AB3042144C126006FABE4 /* Leg Lift 2.jpg */,
+				FE6AB3022144C126006FABE4 /* Lunges 1.jpg */,
+				FE6AB2F52144C124006FABE4 /* Mountain climber 1.jpg */,
+				FE6AB2F02144C123006FABE4 /* Mountain climber 2.jpg */,
+				FE6AB2F42144C124006FABE4 /* Mountain climber 3.jpg */,
+				FE6AB2E72144C122006FABE4 /* Mountain climber 4.jpg */,
+				FE6AB2E42144C121006FABE4 /* Push-up 1.jpg */,
+				FE6AB2EA2144C122006FABE4 /* Push-up 2.jpg */,
+				FE6AB2EB2144C122006FABE4 /* Side Plank 1.jpg */,
+				FE6AB2E82144C122006FABE4 /* Squats 1.jpg */,
+				FE6AB2E62144C122006FABE4 /* Star Jump 1.jpg */,
+				FE6AB2F22144C123006FABE4 /* Star Jump 2.jpg */,
+				FE6AB2F62144C124006FABE4 /* Star Jump 3.jpg */,
+				FE6AB2FD2144C125006FABE4 /* Tuck Jump 1.jpg */,
+				FE6AB2F72144C124006FABE4 /* Tuck Jump 2.jpg */,
+			);
+			path = "exercise photos";
+			sourceTree = "<group>";
+		};
+		FEDB85D820FF3EEB00585639 /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				FED4A6A6212E715D000AD0B3 /* DataCell.swift */,
+				FEDB85E120FF408D00585639 /* Sit-up.jpeg */,
+				FEDB85E320FF41E100585639 /* pull-up.jpeg */,
+				FEDB85E520FF41E500585639 /* Shuttle run.jpeg */,
+				FEDB85E720FF42C000585639 /* Sit and reach.jpeg */,
+				FEDB85E920FF435800585639 /* Standingboardjump.jpeg */,
+				FEDB85ED20FF450200585639 /* Running.jpeg */,
+			);
+			path = Segment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89A2F02620E31B9C00BB782E /* Changemakers_Designer_View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A2F03920E31B9C00BB782E /* Build configuration list for PBXNativeTarget "Changemakers_Designer_View" */;
+			buildPhases = (
+				41FE14F58675344D2521F6BB /* [CP] Check Pods Manifest.lock */,
+				89A2F02320E31B9C00BB782E /* Sources */,
+				89A2F02420E31B9C00BB782E /* Frameworks */,
+				89A2F02520E31B9C00BB782E /* Resources */,
+				6BE666A63A1DA6AA99CF5AE0 /* [CP] Embed Pods Frameworks */,
+				3ED38E4019B824A09EF43770 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Changemakers_Designer_View;
+			productName = "Changemakers INITIAL DESIGN";
+			productReference = 89A2F02720E31B9C00BB782E /* Changemakers_Designer_View.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89A2F01F20E31B9C00BB782E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = KWJX;
+				TargetAttributes = {
+					89A2F02620E31B9C00BB782E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 89A2F02220E31B9C00BB782E /* Build configuration list for PBXProject "Changemakers_Designer_View" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89A2F01E20E31B9C00BB782E;
+			productRefGroup = 89A2F02820E31B9C00BB782E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89A2F02620E31B9C00BB782E /* Changemakers_Designer_View */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89A2F02520E31B9C00BB782E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA380CD2148EA040005DE02 /* FEMALE,Inclined pull up.png in Resources */,
+				FEA38095214508B40005DE02 /* movie.mp4 in Resources */,
+				FEA380D02148EA040005DE02 /* MALE,Pull-Up.png in Resources */,
+				FE6AB3172144C128006FABE4 /* High Knee 3.jpg in Resources */,
+				FE6AB31E2144C128006FABE4 /* Mountain climber 3.jpg in Resources */,
+				FE6AB3232144C128006FABE4 /* Arm and Leg Raise 2.jpg in Resources */,
+				FE6AB3272144C128006FABE4 /* Tuck Jump 1.jpg in Resources */,
+				FE6AB32F2144C128006FABE4 /* Ballet Twist 1.jpg in Resources */,
+				FEA3809721451CC10005DE02 /* Assets.xcassets in Resources */,
+				FEA380DA2148EA040005DE02 /* FEMALE,Standing broad jump.png in Resources */,
+				FE7D3D1820F09EF5007DFAE8 /* report.png in Resources */,
+				FEA380CE2148EA040005DE02 /* MALE,Sit-ups.png in Resources */,
+				FEA380CF2148EA040005DE02 /* FEMALE,Shuttle-run.png in Resources */,
+				FE6AB3322144C128006FABE4 /* Cobra Stretch 1.jpg in Resources */,
+				FE6AB3212144C128006FABE4 /* Tuck Jump 2.jpg in Resources */,
+				FEDB85E420FF41E100585639 /* pull-up.jpeg in Resources */,
+				FE6AB3162144C128006FABE4 /* Bicycle Crunch 2.jpg in Resources */,
+				FE6AB31B2144C128006FABE4 /* Diamond Push-up 2.jpg in Resources */,
+				FE6AB3202144C128006FABE4 /* Star Jump 3.jpg in Resources */,
+				FE6AB3182144C128006FABE4 /* Counter-movement Jump 1.jpg in Resources */,
+				FE6AB3362144C128006FABE4 /* Leg Lift 1.jpg in Resources */,
+				FE6AB3102144C128006FABE4 /* Star Jump 1.jpg in Resources */,
+				FEA380CB2148EA040005DE02 /* MALE,Pull-Ups.png in Resources */,
+				FEA380D22148EA040005DE02 /* MALE,2.4 km run.png in Resources */,
+				FE6AB2E12144C07A006FABE4 /* Screen Shot 2018-09-06 at 9.46.42 AM.png in Resources */,
+				FE6AB3252144C128006FABE4 /* Counter-movement Jump 2.jpg in Resources */,
+				FE6AB32D2144C128006FABE4 /* Bicycle Crunch 1.jpg in Resources */,
+				FEA380D52148EA040005DE02 /* MALE,Sit and reach.png in Resources */,
+				FEDB85E820FF42C000585639 /* Sit and reach.jpeg in Resources */,
+				FE6AB3192144C128006FABE4 /* Diamond Push-up 3.jpg in Resources */,
+				FEA380D12148EA040005DE02 /* FEMALE,2.4 km run.png in Resources */,
+				FEA380D72148EA040005DE02 /* MALE,Standing broad jump.png in Resources */,
+				FE6AB31F2144C128006FABE4 /* Mountain climber 1.jpg in Resources */,
+				FE6AB32E2144C128006FABE4 /* Leg Lift 2.jpg in Resources */,
+				FE6AB3222144C128006FABE4 /* Diamond Push-up 1.jpg in Resources */,
+				FE6AB3262144C128006FABE4 /* Butt Kicks 4.jpg in Resources */,
+				FE6AB3242144C128006FABE4 /* Jumping jack 2.jpg in Resources */,
+				FE6AB32A2144C128006FABE4 /* High Knee 1.jpg in Resources */,
+				FEA380D42148EA040005DE02 /* MALE,2.4km Run.png in Resources */,
+				FE6AB3352144C128006FABE4 /* Crunch 1.jpg in Resources */,
+				FE6AB3282144C128006FABE4 /* Jumping jack 4.jpg in Resources */,
+				FE6AB3292144C128006FABE4 /* Jumping jack 3.jpg in Resources */,
+				FEDB85E220FF408D00585639 /* Sit-up.jpeg in Resources */,
+				FE6AB31A2144C128006FABE4 /* Mountain climber 2.jpg in Resources */,
+				FEA380D92148EA040005DE02 /* FEMALE,Sit and reach.png in Resources */,
+				FE6AB3122144C128006FABE4 /* Squats 1.jpg in Resources */,
+				FE6AB3152144C128006FABE4 /* Side Plank 1.jpg in Resources */,
+				FE6AB3132144C128006FABE4 /* High Knee 2.jpg in Resources */,
+				FE6AB30F2144C128006FABE4 /* Jumping jack 1.jpg in Resources */,
+				FE6AB30D2144C128006FABE4 /* Forward Plank 1.jpg in Resources */,
+				FE6AB31C2144C128006FABE4 /* Star Jump 2.jpg in Resources */,
+				FE6AB3342144C128006FABE4 /* Arm and Leg Raise 1.jpg in Resources */,
+				FE6AB32B2144C128006FABE4 /* Butterfly Kick 1.jpg in Resources */,
+				FEA380CC2148EA040005DE02 /* MALE,Inclined Pull-Ups.png in Resources */,
+				FEA380D62148EA040005DE02 /* FEMALE,Sit-ups.png in Resources */,
+				FEA380DB2148EA040005DE02 /* MALE,Inclined pull up.png in Resources */,
+				FEDB85E620FF41E500585639 /* Shuttle run.jpeg in Resources */,
+				FE6AB3312144C128006FABE4 /* Butt Kicks 3.jpg in Resources */,
+				FEDB85EA20FF435800585639 /* Standingboardjump.jpeg in Resources */,
+				89A2F03520E31B9C00BB782E /* LaunchScreen.storyboard in Resources */,
+				89A8EB4720EA270B0030E368 /* My profile.png in Resources */,
+				FE6AB3332144C128006FABE4 /* Crunch 2.jpg in Resources */,
+				FE6AB31D2144C128006FABE4 /* Butt Kicks 2.jpg in Resources */,
+				FE6AB3142144C128006FABE4 /* Push-up 2.jpg in Resources */,
+				FEDB85EE20FF450200585639 /* Running.jpeg in Resources */,
+				89A2F03020E31B9C00BB782E /* Main.storyboard in Resources */,
+				FE6AB3112144C128006FABE4 /* Mountain climber 4.jpg in Resources */,
+				FE6AB32C2144C128006FABE4 /* Lunges 1.jpg in Resources */,
+				FEA380D32148EA040005DE02 /* MALE,Shuttle-run.png in Resources */,
+				FE6AB3302144C128006FABE4 /* Butt Kicks 1.jpg in Resources */,
+				FEA380D82148EA040005DE02 /* MALE,Sit and reach (cm).png in Resources */,
+				FE6AB30E2144C128006FABE4 /* Push-up 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3ED38E4019B824A09EF43770 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Changemakers_Designer_View/Pods-Changemakers_Designer_View-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41FE14F58675344D2521F6BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Changemakers_Designer_View-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BE666A63A1DA6AA99CF5AE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Changemakers_Designer_View/Pods-Changemakers_Designer_View-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework",
+				"${BUILT_PRODUCTS_DIR}/ZCAnimatedLabel/ZCAnimatedLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZCAnimatedLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Changemakers_Designer_View/Pods-Changemakers_Designer_View-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A2F02320E31B9C00BB782E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7049612112776A00687FB0 /* detaildetailViewController.swift in Sources */,
+				FEDB85D620FE1A8700585639 /* mocktestViewController.swift in Sources */,
+				FEDB85F02101945100585639 /* sectionTableViewCell.swift in Sources */,
+				FE7D3D1A20F0A3DC007DFAE8 /* reportTableViewController.swift in Sources */,
+				89A2F02D20E31B9C00BB782E /* ViewController.swift in Sources */,
+				FED4A6A5212E7102000AD0B3 /* searchTableViewController.swift in Sources */,
+				FED4A6A7212E715D000AD0B3 /* DataCell.swift in Sources */,
+				FE7D3D1C20F0BFF8007DFAE8 /* exercisesTableViewController.swift in Sources */,
+				FEAE8CD220E87834006EA02F /* max.swift in Sources */,
+				FE7D3D1620F09C72007DFAE8 /* sectionTableViewController.swift in Sources */,
+				89A2F02B20E31B9C00BB782E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89A2F02E20E31B9C00BB782E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A2F02F20E31B9C00BB782E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89A2F03320E31B9C00BB782E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A2F03420E31B9C00BB782E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89A2F03720E31B9C00BB782E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89A2F03820E31B9C00BB782E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89A2F03A20E31B9C00BB782E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5925D36D83AB40DB9B7A050 /* Pods-Changemakers_Designer_View.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FU2A8TG5WK;
+				INFOPLIST_FILE = "Changemakers INITIAL DESIGN/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SST.Changemakers-INITIAL-DESIGN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89A2F03B20E31B9C00BB782E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1ECDC357B3644CA940F1DC /* Pods-Changemakers_Designer_View.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FU2A8TG5WK;
+				INFOPLIST_FILE = "Changemakers INITIAL DESIGN/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SST.Changemakers-INITIAL-DESIGN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89A2F02220E31B9C00BB782E /* Build configuration list for PBXProject "Changemakers_Designer_View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A2F03720E31B9C00BB782E /* Debug */,
+				89A2F03820E31B9C00BB782E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A2F03920E31B9C00BB782E /* Build configuration list for PBXNativeTarget "Changemakers_Designer_View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A2F03A20E31B9C00BB782E /* Debug */,
+				89A2F03B20E31B9C00BB782E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89A2F01F20E31B9C00BB782E /* Project object */;
+}
