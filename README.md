@@ -23,7 +23,7 @@ An app made for the 2018 SST changemakers programme.
 ![4](/assets/Screenshot_4.png)
 ![5](/assets/Screenshot_5.png)
 # Credits:
-Yan En: App developer
-Ryan and Yan En: UI Designer
-Kieran,Kang Jing,Axios: Data gatherer
+Yan En: App developer <br />
+Ryan and Yan En: UI Designer <br />
+Kieran,Kang Jing,Axios: Data gatherer <br />
 
